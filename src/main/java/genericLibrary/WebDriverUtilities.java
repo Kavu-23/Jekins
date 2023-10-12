@@ -62,9 +62,9 @@ public class WebDriverUtilities {
 	 
 	     //9.Srolling with webElement
 	 public void scrollBar(WebDriver driver, WebElement ele) {
-		 JavascriptExecutor js= (JavascriptExecutor)driver;
-		 js.executeScript("arguments[0].scrollIntoview();", ele);
-	 }
+			JavascriptExecutor js = (JavascriptExecutor) driver;
+			js.executeScript("arguments[0].scrollIntoView();", ele);
+		}
 	 
 	    //10.for click javascript executor
 	 public void clicking(WebDriver driver, WebElement ele) {
